@@ -1,0 +1,109 @@
+body{
+  background-color: #111111;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #00ff73;
+  font-family: "DynaPuff", sans-serif;
+  word-spacing: 10px;
+}
+
+nav{
+  color: #fff;
+  display: inline-flex;
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+a{
+  color: #fff;
+  text-decoration:none;
+  text-align: right;
+  float: right;
+  margin-left: 20px;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+#personal-page{
+  background-color: #212121;
+}
+
+p{
+  font-size: 30px;
+  color: #fff;
+  margin-left: 300px;
+  margin-right: 300px;
+  line-height: 50px;
+}
+
+.profile-img{
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+}
+
+.heading{
+  font-size: 80px;
+  text-align: center;
+}
+
+.greet{
+  font-size: 40px;
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 250px;
+}
+
+#projects-container{
+  display: inline-flex;
+}
+
+.project{
+  height: 700px;
+  width: 500px;
+  margin-right: 100px;
+  margin-top: 120px;
+  border-radius: 20px;
+  border: 5px #00ff73 outset;
+  margin-bottom: 20px;
+}
+
+.project-name{
+  margin-top: 20px;
+  font-family: DynaPuff;
+}
+
+.project:hover{
+  animation: 1s linear 0s running myslide;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+
+@keyframes myslide {
+  from{
+    width: 500px;
+    height: 700px;
+  }
+  to{
+    width: 520px;
+    height: 720px;
+  }
+}
+
+.top{
+  font-size: 30px;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-bottom: 50px;
+}
+
+.about-section{
+  margin-top: 150px;
+}
+
+.about-section h1 {
+  font-size: 80px;
+}
