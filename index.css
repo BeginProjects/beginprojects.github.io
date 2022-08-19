@@ -108,7 +108,7 @@ p{
   font-size: 80px;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 900px){
   body{
     word-spacing: 5px;
   }
