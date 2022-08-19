@@ -107,3 +107,48 @@ p{
 .about-section h1 {
   font-size: 80px;
 }
+
+@media screen and (max-width: 600px){
+  body{
+    word-spacing: 5px;
+  }
+
+  nav{
+    color: #fff;
+    display: inline-flex;
+    text-align: right;
+    margin-bottom: 20px;
+  }
+
+  a{
+    color: #fff;
+    text-decoration:none;
+    text-align: right;
+    float: right;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  p{
+    font-size: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 30px;
+  }
+
+  .greet{
+    font-size: 40px;
+  }
+
+  .project{
+    height: 700px;
+    width: 500px;
+    margin-right: 100px;
+    margin-top: 120px;
+    border-radius: 20px;
+    border: 5px #00ff73 outset;
+    margin-bottom: 20px;
+  }
+}
