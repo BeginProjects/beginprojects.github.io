@@ -157,7 +157,7 @@ p{
   }
 }
 
-@media screen and (max-width: 900px){
+@media (min-width: 900px){
   body{
     word-spacing: 5px;
   }
