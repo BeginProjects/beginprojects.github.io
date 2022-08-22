@@ -1,12 +1,21 @@
 body{
   background-color: #111111;
-  text-align: center;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   color: #00ff73;
   font-family: "DynaPuff", sans-serif;
   word-spacing: 10px;
+}
+
+.main-section{
+  background-color: #111111;
+  text-align: center;
+}
+
+header{
+  background-color: #111111;
+}
+
+.top{
+  background-color: #111111;
 }
 
 nav{
@@ -14,6 +23,7 @@ nav{
   display: inline-flex;
   text-align: right;
   margin-bottom: 20px;
+  background-color: #111111;
 }
 
 a{
@@ -82,6 +92,10 @@ p{
   animation-fill-mode: forwards;
 }
 
+.greet-section{
+  text-align: center;
+}
+
 @keyframes myslide {
   from{
     width: 500px;
@@ -102,10 +116,20 @@ p{
 
 .about-section{
   margin-top: 150px;
+  padding-bottom: 80px;
 }
 
 .about-section h1 {
   font-size: 80px;
+}
+
+.greet-section{
+  margin-bottom: 100px;
+}
+
+footer{
+  background-color:
+  color:#111111;
 }
 
 @media screen and (max-width: 900px){
