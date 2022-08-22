@@ -156,3 +156,52 @@ p{
     margin-bottom: 15px;
   }
 }
+
+@media screen and (max-width: 900px){
+  body{
+    word-spacing: 5px;
+  }
+
+  nav{
+    color: #fff;
+    display: inline-flex;
+    text-align: right;
+    margin-bottom: 20px;
+  }
+
+  a{
+    color: #fff;
+    text-decoration:none;
+    text-align: right;
+    float: right;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  p{
+    font-size: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 30px;
+  }
+
+  .greet{
+    font-size: 40px;
+  }
+
+  #projects-container{
+    display: block;
+  }
+
+  .project{
+    height: 700px;
+    width: 500px;
+    margin-right: 50px;
+    margin-top: 80px;
+    border-radius: 20px;
+    border: 2px #00ff73 outset;
+    margin-bottom: 15px;
+  }
+}
