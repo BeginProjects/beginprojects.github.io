@@ -1,0 +1,52 @@
+body{
+  background-color: #111111;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #00ff73;
+  font-family: "DynaPuff";
+}
+
+nav{
+  color: #fff;
+  display: inline-flex;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 30px;
+  font-family: "DynaPuff"
+}
+
+#number{
+  text-align: center;
+  font-size: 500px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+#heading{
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  color: #818181;
+}
+
+button{
+  background-color: #3d9824;
+  border: 2px #818181 solid;
+  height: 50px;
+  width: 150px;
+  margin-left: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+#r-btn{
+  background-color: #ab3521;
+}
